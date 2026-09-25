@@ -1,0 +1,20 @@
+UMPOcc
+
+This package is derived from ProOOD.
+The Apache License, Version 2.0, supplied with that project is retained.
+Existing copyright and attribution comments remain in their source files.
+
+The modified research implementation adds multi-prototype modeling (UMPOF),
+spatial OOD score calibration (PPSC), and supporting training/evaluation tools.
+For this source release, configuration and prediction paths were made portable,
+public configuration names and shell entry points were added, and documentation
+was rewritten. Registry names remain compatible with the inherited model.
+
+ProOOD builds on SGN and OpenMMLab. Files carrying upstream attribution retain
+that attribution. The label preprocessing code credits LMSCNet and SSC in its
+source comments. MobileStereoNet sources under preprocess/mobilestereonet/
+retain their accompanying Apache-2.0 LICENSE and attribution comments.
+
+SPIdepth is an external dependency of the optional SQL preprocessing tools;
+its source and checkpoints are not bundled. Datasets and all model weights
+must be obtained separately under their respective terms.
